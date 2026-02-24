@@ -1,0 +1,21 @@
+.activity-page{padding:24px 28px}
+.activity-header h2{margin:0;font-size:20px}
+.activity-header .muted{color:#6b7280;margin-top:6px}
+
+.activity-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+.activity-card{display:block;background:#fff;border-radius:10px;border:1px solid #e6e9ef;overflow:hidden;text-decoration:none;color:inherit}
+.activity-image{height:140px;background-size:cover;background-position:center}
+.activity-body{padding:12px}
+.badge{display:inline-block;background:#eef2ff;color:#0b5bb6;padding:6px 8px;border-radius:8px;font-size:12px;margin-bottom:8px}
+.activity-title{margin:6px 0 4px 0;font-size:15px}
+.activity-meta{color:#6b7280;font-size:13px}
+.activity-excerpt{color:#374151;margin-top:8px;font-size:13px}
+
+.activity-bottom{margin-top:26px}
+.facility-cta{background:#eef7ff;border-radius:12px;padding:18px;display:flex;justify-content:space-between;align-items:center}
+.facility-cta h3{margin:0}
+.btn.primary{background:#0b5bb6;color:#fff;border:none;padding:10px 14px;border-radius:8px}
+
+@media (max-width:800px){
+  .facility-cta{flex-direction:column;gap:12px}
+}

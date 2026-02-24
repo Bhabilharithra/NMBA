@@ -1,0 +1,38 @@
+.facilities-page{min-height:100vh;background:var(--bg, #f4f6f9);padding:18px 28px;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial}
+.fac-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.fac-left h3{margin:0;font-size:18px;color:#0b1220}
+.fac-sub{margin:6px 0 0;color:#6b7280;font-size:13px}
+.fac-actions{display:flex;gap:10px;align-items:center}
+.fac-search{padding:10px 12px;border-radius:8px;border:1px solid #e6e9ef;width:420px}
+.fac-filter{padding:10px;border-radius:8px;border:1px solid #e6e9ef;background:#fff}
+.fac-btn{padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+.fac-btn.primary{background:#0b5bb6;color:#fff}
+
+.fac-layout{display:flex;gap:18px}
+.map-col{flex:1}
+.list-col{width:420px}
+.map-frame{height:620px;background:#eaf0f8;border-radius:12px;border:1px solid #dbe6f4;display:flex;align-items:center;justify-content:center}
+.map-placeholder{color:#6b7280}
+
+.list-panel{background:#fff;border-radius:10px;border:1px solid #e6e9ef;padding:12px}
+.list-header{font-weight:700;padding:6px 8px;color:#0b1220}
+.facility-list{display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.facility-card{display:flex;justify-content:space-between;align-items:flex-start;padding:12px;border-radius:8px;background:#fff;border:1px solid #eef2ff}
+.facility-card-left{max-width:60%}
+.facility-title{font-weight:700;color:#0b1220}
+.facility-address{font-size:13px;color:#6b7280;margin-top:6px}
+.facility-tags{margin-top:8px;display:flex;gap:6px}
+.tag{background:#f1f5f9;color:#0b1220;padding:4px 8px;border-radius:6px;font-size:12px}
+.facility-card-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.facility-distance{font-weight:700;color:#0b5bb6}
+.facility-actions{display:flex;gap:8px}
+.btn{padding:8px 10px;border-radius:8px;border:1px solid transparent;cursor:pointer}
+.btn.outline{background:#fff;border:1px solid #d1d5db;color:#0b1220}
+.btn.primary{background:#0b5bb6;color:#fff;border:0}
+
+@media (max-width:1000px){
+  .fac-layout{flex-direction:column}
+  .list-col{width:100%}
+  .map-frame{height:420px}
+  .fac-search{width:240px}
+}

@@ -1,0 +1,121 @@
+/* EPledge Oath EN styles (approximation of provided design) */
+.epledge-page {
+  background: #f3f5f8;
+  min-height: 100vh;
+  padding: 0 16px 48px;
+  box-sizing: border-box;
+}
+.epledge-banner {
+  height: 300px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background: linear-gradient(90deg,#e6f5ee,#cbeedb);
+  background-image: url('/assets/pledge-banner.jpg'), linear-gradient(90deg,#e6f5ee,#cbeedb);
+  background-size: cover, cover;
+  background-position: center;
+}
+.epledge-container {
+  max-width: 1140px;
+  margin: -140px auto 0; /* overlap the banner */
+  padding: 0 24px 32px;
+  box-sizing: border-box;
+}
+.pledge-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+  overflow: visible;
+}
+.pledge-head {
+  background: #f9fafb;
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.pledge-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: #C8E6C9;
+  border: 1px solid #81C784;
+  border-radius: 14px;
+  color: #27682A;
+  font-weight: 600;
+  font-size: 13px;
+}
+.pledge-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #374151;
+  margin: 0;
+}
+.lang-group {
+  display: inline-flex;
+  gap: 8px;
+}
+.lang-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+.lang-btn.primary {
+  background: #003366;
+  color: #fff;
+  border: none;
+}
+.pledge-body {
+  padding: 28px 48px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.pledge-text-box {
+  background: #fff4e5;
+  border: 1px solid #ffc97f;
+  padding: 28px;
+  border-radius: 12px;
+  color: #704518;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 764px;
+}
+.pledge-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.pledge-cta {
+  background: #003366;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.pledge-footer {
+  padding-top: 8px;
+  display: flex;
+  gap: 8px;
+  color: #6b7280;
+  align-items: center;
+}
+.pledge-download {
+  color: #003366;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .epledge-container { max-width: 920px; margin-left: 12px; margin-right: 12px; }
+  .pledge-body { padding: 20px; }
+  .pledge-title { font-size: 22px; }
+}

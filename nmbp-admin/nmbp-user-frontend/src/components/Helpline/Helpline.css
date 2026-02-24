@@ -1,0 +1,39 @@
+.helpline-page{min-height:100vh;background:var(--bg, #f4f6f9);padding:18px 28px;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial}
+.hel-header h3{margin:0 0 8px 0}
+.hel-main{display:flex;gap:18px}
+.hel-left{width:420px;display:flex;flex-direction:column;gap:12px}
+.hel-cta{background:linear-gradient(90deg,#1b8c4f,#2fa26b);color:#fff;padding:16px;border-radius:10px;display:flex;justify-content:space-between;align-items:center}
+.cta-text p{margin:6px 0 0 0;font-size:13px;opacity:0.95}
+.cta-number{background:#052b44;padding:10px 14px;border-radius:999px;font-weight:800}
+.stats-cards{display:flex;flex-direction:column;gap:12px}
+.small-card{background:#fff;padding:12px;border-radius:10px;border:1px solid #e6e9ef}
+.card-title{font-size:13px;color:#6b7280}
+.card-value{font-size:20px;color:#0b1220;font-weight:800}
+.card-sub{font-size:12px;color:#6b7280}
+.charts{display:flex;flex-direction:column;gap:12px}
+.chart-placeholder{height:140px;background:linear-gradient(180deg,#fff,#f7fbff);border:1px solid #e6eefc;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#6b7280}
+
+.hel-right{flex:1;display:flex;flex-direction:column;gap:12px}
+.table-card{background:#fff;padding:12px;border-radius:10px;border:1px solid #e6e9ef}
+.table-actions{display:flex;justify-content:space-between;align-items:center}
+.table-controls .ctrl{margin-left:8px;padding:6px 10px;border-radius:6px;border:1px solid #e6e9ef;background:#fff}
+.states-table{width:100%;border-collapse:collapse;margin-top:10px}
+.states-table th,.states-table td{padding:10px;border-bottom:1px solid #f1f5f9;text-align:left}
+.states-table thead th{background:#fbfdff}
+
+.chart-card{background:#fff;padding:12px;border-radius:10px;border:1px solid #e6e9ef}
+.chart-card-head{font-weight:700;margin-bottom:8px}
+.chart-placeholder.big{height:220px}
+
+.ctabottom{margin-top:8px}
+.ctabox{background:linear-gradient(90deg,#063a66,#0b5bb6);color:#fff;padding:18px;border-radius:10px;display:flex;justify-content:space-between;align-items:center}
+.ctabox h4{margin:0}
+.cta-actions .btn{margin-left:10px}
+.btn{padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+.btn.primary{background:#fff;color:#063a66;font-weight:700}
+.btn.outline{background:transparent;border:1px solid rgba(255,255,255,0.25);color:#fff}
+
+@media (max-width:1000px){
+  .hel-main{flex-direction:column}
+  .hel-left{width:100%}
+}
